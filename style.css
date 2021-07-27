@@ -1,0 +1,67 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+header{
+  background-color: aqua;
+}
+
+.logo{
+  background: pink;
+  float: left;
+}
+
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.logo img{
+  height: 50px;
+  width: 30px;
+  object-fit: contain;
+  display: block;
+}
+
+.menu{
+  background: purple;
+  float: left;
+  list-style: none;
+}
+
+.menu li{
+  float: left;
+}
+
+.menu a{
+background: red;
+  line-height: 70px;
+}
+
+.rightPart{
+  background: saddlebrown;
+  float: right;
+}
+
+.messageButton{
+  background: seagreen;
+}
+
+.messageButton img{
+height: 50px;
+width: 30px;
+object-fit: contain;
+float: left;
+}
+
+.messageButton p{
+  float: left
+  line-height: 50px;
+}
+
+.messageme{
+  background: white;
+  line-height: 40px;
+  margin-top: 5px;
+} 
